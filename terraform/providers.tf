@@ -1,7 +1,7 @@
 terraform {
     required_version = ">= 0.12"
     backend "s3" {
-        bucket = "YOUR_BUCKET_NAME"
+        bucket = "s3_bucket"
         key = "state"
     }
 }
